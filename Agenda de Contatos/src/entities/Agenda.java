@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-class Agenda implements IAgenda {
+class Agenda {
     private List<Contato> contatos = new ArrayList<>();
 
     public void adicionarContato(Contato contato) {

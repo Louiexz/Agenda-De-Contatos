@@ -1,6 +1,6 @@
-package entities;
+package dados;
 
-class ContatoServico extends Contato {
+public class ContatoServico extends Contato {
     private String categoria;
 
     public ContatoServico(String nome, String telefone, String email, String categoria) {

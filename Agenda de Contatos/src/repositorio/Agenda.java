@@ -1,10 +1,11 @@
-package entities;
+package repositorio;
 
 import java.util.ArrayList;
 import java.util.List;
+import dados.Contato;
 
 
-class Agenda implements IAgenda {
+public class Agenda implements IAgenda {
     private List<Contato> contatos = new ArrayList<>();
 
     public void adicionarContato(Contato contato) {

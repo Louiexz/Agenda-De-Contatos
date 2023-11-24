@@ -1,4 +1,4 @@
-package entities;
+package dados;
 
 
 public class Contato {

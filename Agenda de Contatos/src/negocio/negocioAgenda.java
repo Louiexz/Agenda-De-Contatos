@@ -21,7 +21,7 @@ public class negocioAgenda {
         String endereco = scanner.nextLine();
         ContatoPessoal novoContato = new ContatoPessoal(nome, telefone, email, endereco);
         agenda.adicionarContato(novoContato);
-        System.out.println("Contato pessoal adicionado.");
+        System.out.println("\nContato pessoal adicionado.");
     }
 
     public static void adicionarContatoProfissional(Scanner scanner, Agenda agenda) {
@@ -35,7 +35,7 @@ public class negocioAgenda {
         String empresa = scanner.nextLine();
         ContatoProfissional novoContato = new ContatoProfissional(nome, telefone, email, empresa);
         agenda.adicionarContato(novoContato);
-        System.out.println("Contato profissional adicionado.");
+        System.out.println("\nContato profissional adicionado.");
     }
 
     public static void adicionarContatoServico(Scanner scanner, Agenda agenda) {
@@ -49,7 +49,7 @@ public class negocioAgenda {
         String categoria = scanner.nextLine();
         ContatoServico novoContato = new ContatoServico(nome, telefone, email, categoria);
         agenda.adicionarContato(novoContato);
-        System.out.println("Contato de serviço adicionado.");
+        System.out.println("\nContato de serviço adicionado.");
     }
     
     public static void removerContato (Scanner scanner, Agenda agenda ) {
@@ -57,7 +57,7 @@ public class negocioAgenda {
         System.out.print("Nome do contato a ser removido: ");
         String nomeRemover = scanner.nextLine();
         agenda.removerContato(nomeRemover);
-        System.out.println("Contato removido.");
+        System.out.println("\nContato removido.");
     	
     }
     
